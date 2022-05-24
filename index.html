@@ -25,11 +25,11 @@
 
                             <div class="col-md-5 center-item">
                                 <div class="input-group number-spinner">
-                                    <button onclick="HandelPhoneChange(false)" class="btn btn-default"><i class="fa fa-minus"></i></button>
+                                    <button onclick="handelProductChange('phone',false)" class="btn btn-default"><i class="fa fa-minus"></i></button>
                                     <input id="phone-count" type="text" class="form-control text-center" value="1">
-                                    <button onclick="HandelPhoneChange(true)" class="btn btn-default"><i class="fa fa-plus"></i></button>
+                                    <button onclick="handelProductChange('phone',true)" class="btn btn-default"><i class="fa fa-plus"></i></button>
                                 </div>
-                                <h5 id="phone-pricse">$1219</h5>
+                                <h5 id="phone-price">$1219</h5>
                                 <img src="images/remove.png" alt="" class="remove-item">
                             </div>
                         </div>
@@ -43,12 +43,12 @@
                             </div>
                             <div class="col-md-5 center-item">
                                 <div class="input-group number-spinner">
-                                    <button onclick="HandelProductChange(false)" class="btn btn-default"><i class="fa fa-minus"></i></button>
+                                    <button onclick="handelProductChange('case',false)" class="btn btn-default"><i class="fa fa-minus"></i></button>
                                     <input id="case-count" type="text" class="form-control text-center" value="1">
-                                    <button onclick="HandelProductChange(true)" class="btn btn-default"><i class="fa fa-plus"></i></button>
+                                    <button onclick="handelProductChange('case',true)" class="btn btn-default"><i class="fa fa-plus"></i></button>
 
                                 </div>
-                                <h5 id="case-pricse">$59</h5>
+                                <h5 id="case-price">$59</h5>
                                 <img src="images/remove.png" alt="" class="remove-item">
                             </div>
                         </div>
@@ -63,9 +63,9 @@
                             </div>
 
                             <div class="col-md-4 status">
-                                <h5>$1,278</h5>
-                                <h5>$0</h5>
-                                <h5>$1,278</h5>
+                                <h5 id="total-price">$1,278</h5>
+                                <h5 id="tax-amount">$0</h5>
+                                <h5 id="grand-total">$1,278</h5>
                             </div>
                         </div>
                     </div>
